@@ -1,0 +1,32 @@
+.wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    // min-width: 100%;
+    padding: 16px 12px 18px;
+    font-size: 1.6rem;
+    // font-weight: 500;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid transparent;
+    user-select: none;
+
+    &.disabled {
+        pointer-events: none;
+        opacity: 0.5;
+    }
+}
+
+.primary {
+    font-size: inherit;
+    line-height: 1.5;
+    border: none;
+    text-decoration: none;
+    &:active {
+        color: black;
+    }
+    &:visited {
+        color: #000000;
+    }
+    // cursor: pointer;
+}

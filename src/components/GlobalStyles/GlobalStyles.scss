@@ -4,6 +4,12 @@
 :root {
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -12,4 +18,5 @@ body {
     font-family: 'Be Vietnam Pro', sans-serif;
     // font-family: 'Montserrat', sans-serif;
     font-size: 1.6rem;
+    text-rendering: optimizespeed;
 }
